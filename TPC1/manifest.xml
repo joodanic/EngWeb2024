@@ -6,7 +6,7 @@
         <date>2024-02-05</date>
         <author>
             <id>a94015</id>
-            <name>Joao Carvalho</name>
+            <name>João Carvalho</name>
         </author>
         <uc>
             <sigla>EW2024</sigla>
@@ -14,12 +14,22 @@
         </uc>
     </meta>
     <resumo>
-        <p>Resumir o que foi pedido neste TPC</p>
-        <p> resumo</p>
-        <p> resumo com <url>link</url><texto>url embutido</texto></p>
+        <p>Fazer uma página HTML com um índice com as ruas fornecidas,</p>
+        <p>sendo que cada rua possui um link para outra página HTML onde tem informações sobre a mesma.</p>
+        <p>As informações são obtidas através da leitura dos ficheiros .xml de cada rua.</p>
     </resumo>
     <resultados>
-        <resultado>resultado 1<resultado>
-        <resultado>resultado 2<resultado>
+        <resultado>
+            <descricao>Pagina inicial com o index</descricao>
+            <imagem>resultadoTPC1_1.png</imagem>
+        </resultado>
+        <resultado>
+            <descricao>Parte da pagina de uma das ruas</descricao>
+            <imagem>resultadoTPC1_2.png</imagem>
+        </resultado>
+        <resultado>
+            <descricao>Resto da pagina</descricao>
+            <imagem>resultadoTPC1_3.png</imagem>
+        </resultado>
     </resultados>
 </doc>

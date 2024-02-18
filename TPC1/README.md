@@ -1,6 +1,19 @@
-#TPC1
+# TPC1
 
-##Objetivo
+## Aluno
 
-Fazer uma pagina html com um indice com as ruas fornecidas, sendo que cada rua possui um link para outra pagina html onde tem informacoes sobre a mesma.
-As informacoes sao obtidas atraves da leitura dos ficheiros .xml de cada rua.
+Nome: João Carvalho
+
+Numero: A94015
+
+## Objetivo
+
+Fazer uma página HTML com um índice com as ruas fornecidas, sendo que cada rua possui um link para outra página HTML onde tem informações sobre a mesma. As informações são obtidas através da leitura dos ficheiros .xml de cada rua.
+
+## Resultados
+
+**Pagina inicial com o index:** ![Minha foto](resultadoTPC1_1.png)
+
+**Parte da pagina de uma das ruas:** ![Minha foto](resultadoTPC1_2.png)
+
+**Resto da pagina:** ![Minha foto](resultadoTPC1_3.png)
