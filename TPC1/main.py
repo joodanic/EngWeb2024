@@ -71,7 +71,19 @@ for xml_file in all_files:
         if lista_casas is not None:
             for casa in lista_casas.findall('casa'):
                 number = casa.find('número').text if casa.find('número') is not None else 'Desconhecido'
-                ruas_template += f"<li>Casa Número: {number}</li>"
+                enfiteuta = casa.find('enfiteuta').text if casa.find('enfiteuta') is not None else 'Desconhecido'
+                foro = casa.find('foro').text if casa.find('foro') is not None else 'Desconhecido'
+                desc_element = casa.find('desc')
+                if desc_element is not None and desc_element.find('para') is not None:
+                    desc = ''.join(desc_element.find('para').itertext())
+                else:
+                    desc = 'Desconhecido'
+
+                ruas_template += f"Casa Número: {number}<ul>"
+                ruas_template += f"<li>Enfiteuta: {enfiteuta}</li>"
+                ruas_template += f"<li>Foro: {foro}</li>"
+                ruas_template += f"<li>Descrição: {desc}</li></ul>"
+
         ruas_template += "</ul>"
 
         ruas_template += "<h6><a href='../listaruas.html'>Voltar</a></h6></body></html>"
