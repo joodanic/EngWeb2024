@@ -5,7 +5,7 @@ na Universidade do Minho.
 
 ## ALUNO
 
-**nome:** Joao Carvalho
+**nome:** João Carvalho
 
 **Numero:** A94015
 
