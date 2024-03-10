@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC2:</title>
+        <date>2024-02-25</date>
+        <author>
+            <id>a94015</id>
+            <name>João Carvalho</name>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Fazer um servidor em Node.js que vai buscar dados a um JSON Server fornecido</p>
+        <p>e apresenta uma lista de alunos ordenada alfabeticamente, sendo que, clicando</p>
+        <p>no link presente no nome de cada um desses alunos, somos redirecionados para</p>
+        <p>uma página onde temos toda a sua informação numa página web.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <descricao>Pagina inicial com o index</descricao>
+            <imagem>resultado_TPC2_1.png</imagem>
+        </resultado>
+        <resultado>
+            <descricao>Pagina de um aluno</descricao>
+            <imagem>resultado_TPC2_2.png</imagem>
+        </resultado>
+    </resultados>
+</doc>

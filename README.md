@@ -3,13 +3,13 @@
 UC do 3 Ano de Engenharia Informatica
 na Universidade do Minho.
 
-##ALUNO
+## ALUNO
 
-**nome:** Joao Carvalho
+**nome:** João Carvalho
 
 **Numero:** A94015
 
-**Email:** joaodaniel200116@gmail.com
+**Email:** a94015@alunos.uminho.pt
 
-**Fotografia:** ![Minha foto](myfoto.jpg)
+**Fotografia:** ![Minha foto](myfoto.png)
 
