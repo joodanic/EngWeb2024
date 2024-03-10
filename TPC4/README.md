@@ -12,6 +12,4 @@ Fazer um servidor em Node.js que vai buscar dados a um JSON Server fornecido e a
 
 ## Resultados
 
-**Pagina inicial com o index:** ![Minha foto](resultado_TPC2_1.png)
-
-**Pagina de um aluno:** ![Minha foto](resultado_TPC2_2.png)
+Tudo o que era previsto nos objetivos foi concretizado com sucesso.
