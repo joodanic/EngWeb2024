@@ -8,10 +8,15 @@ Numero: A94015
 
 ## Objetivo
 
-Fazer um servidor em Node.js que vai buscar dados a um JSON Server fornecido e apresenta uma lista de alunos ordenada alfabeticamente, sendo que, clicando no link  presente no nome de cada um desses alunos, somos redirecionados para uma página onde temos toda a sua informação numa página web.
+Criar uma aplicação para a gestão de uma base de dados de compositores musicais:
+
+1. Montar a API de dados com o json-server a partir do dataset de compositores em anexo;
+2. Criar uma aplicação Web com as seguintes caraterísticas:
+    1. CRUD sob re compositores;
+    2. CRUD sobre periodos musicais.
+3. Investigar e inserir pelo menos 5 compositores do período moderno ou serialista.
+
 
 ## Resultados
 
-**Pagina inicial com o index:** ![Minha foto](resultado_TPC2_1.png)
-
-**Pagina de um aluno:** ![Minha foto](resultado_TPC2_2.png)
+Tudo o que era previsto fazer foi realizado com sucesso. 
