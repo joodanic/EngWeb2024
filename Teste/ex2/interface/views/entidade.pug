@@ -1,0 +1,40 @@
+extends layout 
+block content 
+    w3.card-4 
+        header.w3-container.w3-teal 
+            h1 #{nipc} (#{entidade})
+        .w3-container 
+            table.w3-table-all 
+                tr 
+                    th ID
+                    th ObjectoContrato
+                    th DataCelebracaoContrato
+                    th PrecoContratual
+                    th NIPC_entidade_comunicante
+                    th Entidade_comunicante
+                    
+
+                -var total = 0
+                each c in contratos
+                    - var preco = parseFloat(c.precoContratual)
+                    - if (!isNaN(preco)) total += preco
+                    tr 
+                        td
+                            a(href='/' + c._id)=  c._id
+                        td= c.objectoContrato
+                        td= c.dataCelebracaoContrato
+                        td= c.precoContratual
+                        td
+                            a(href='/entidades/' + c.NIPC_entidade_comunicante)=  c.entidade_comunicante
+                        td=  c.entidade_comunicante
+                tr
+                    td
+                    td
+                    td
+                    td Total
+                    td= total
+        button 
+                a(href='/') Inicio 
+
+        footer.w3-container.w3-teal 
+            h5 Generated in #{d}
